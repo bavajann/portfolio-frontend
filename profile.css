@@ -85,6 +85,7 @@ body {
   
   .nav-brand img {
     width: 50px;
+    border-radius: 10px;
   }
   
   .fa-bars {
@@ -294,7 +295,7 @@ body {
   
   .container-skillbar {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 2%;
     padding-left: 2%;
     height: auto;
@@ -681,7 +682,7 @@ body {
   border-radius: 20px;
   height: 30px;
   position: relative;
-  margin-top: 20px;
+  margin-top: 10px;
   overflow: hidden;
   border: 2px solid transparent; /* Base border for animation */
   background-clip: padding-box; /* Ensures the background stays inside the border */
@@ -735,6 +736,22 @@ body {
   animation: progress6 4s forwards;
 }
 
+.bar7 {
+  animation: progress7 4s forwards;
+}
+
+.bar8 {
+  animation: progress8 4s forwards;
+}
+
+.bar9 {
+  animation: progress9 4s forwards;
+}
+
+.bar10 {
+  animation: progress10 4s forwards;
+}
+
 
 /* Keyframes for progress bar width animation */
 @keyframes progress1 {
@@ -783,6 +800,42 @@ body {
 }
 
 @keyframes progress6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress9 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress10 {
   0% {
     width: 0;
   }
