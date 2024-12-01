@@ -85,7 +85,7 @@ body {
   
   .nav-brand img {
     width: 50px;
-    border-radius: 10px;
+    border-radius: 90px;
   }
   
   .fa-bars {
@@ -205,9 +205,10 @@ body {
   }
   
   .aboutme {
-    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg")
+    background: url("./images/coding-25.jpg")
       no-repeat;
     background-size: cover;
+    border-radius: 10px;
   }
   
   .aboutme p {
@@ -752,6 +753,10 @@ body {
   animation: progress10 4s forwards;
 }
 
+.bar11 {
+  animation: progress11 4s forwards;
+}
+
 
 /* Keyframes for progress bar width animation */
 @keyframes progress1 {
@@ -804,7 +809,7 @@ body {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 89%;
   }
 }
 
@@ -822,7 +827,7 @@ body {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 75%;
   }
 }
 
@@ -831,7 +836,7 @@ body {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -840,7 +845,16 @@ body {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 70%;
+  }
+}
+
+@keyframes progress11 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
   }
 }
 
@@ -933,4 +947,13 @@ background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 
 }
 .btn-6 span:hover:after {
   width: 100%;
+}
+
+.text-with-border {
+  
+  text-shadow: 
+      -1px -1px 0 black, 
+      1px -1px 0 black,  
+      -1px 1px 0 black, 
+      1px 1px 0 black;
 }
